@@ -1,0 +1,61 @@
+// 50 common Taiwanese foods used when the backend isn't reachable.
+export const TAIWANESE_FOODS = [
+    { id: 'f1', name_zh: '滷肉飯', name_en: 'Braised Pork Rice', serving_size: '1碗 (250g)', calories: 480, protein_g: 16, carbs_g: 58, fat_g: 20, category: '主食' },
+    { id: 'f2', name_zh: '雞腿便當', name_en: 'Chicken Leg Bento', serving_size: '1份', calories: 750, protein_g: 38, carbs_g: 85, fat_g: 28, category: '便當' },
+    { id: 'f3', name_zh: '排骨便當', name_en: 'Pork Chop Bento', serving_size: '1份', calories: 820, protein_g: 34, carbs_g: 88, fat_g: 34, category: '便當' },
+    { id: 'f4', name_zh: '珍珠奶茶', name_en: 'Bubble Tea', serving_size: '大杯 700ml', calories: 450, protein_g: 4, carbs_g: 82, fat_g: 11, category: '飲料' },
+    { id: 'f5', name_zh: '雞排', name_en: 'Fried Chicken', serving_size: '1片 (180g)', calories: 520, protein_g: 32, carbs_g: 28, fat_g: 30, category: '小吃' },
+    { id: 'f6', name_zh: '水煮雞胸肉', name_en: 'Boiled Chicken Breast', serving_size: '100g', calories: 165, protein_g: 31, carbs_g: 0, fat_g: 3.6, category: '蛋白質' },
+    { id: 'f7', name_zh: '茶葉蛋', name_en: 'Tea Egg', serving_size: '1顆', calories: 80, protein_g: 6.5, carbs_g: 0.5, fat_g: 5.5, category: '蛋白質' },
+    { id: 'f8', name_zh: '地瓜', name_en: 'Sweet Potato', serving_size: '1條 (180g)', calories: 150, protein_g: 2, carbs_g: 36, fat_g: 0.2, category: '主食' },
+    { id: 'f9', name_zh: '燕麥片', name_en: 'Oatmeal', serving_size: '1碗 (乾 50g)', calories: 300, protein_g: 10, carbs_g: 52, fat_g: 5, category: '主食' },
+    { id: 'f10', name_zh: '豆漿', name_en: 'Soy Milk', serving_size: '1杯 400ml', calories: 130, protein_g: 10, carbs_g: 14, fat_g: 4.5, category: '飲料' },
+    { id: 'f11', name_zh: '香蕉', name_en: 'Banana', serving_size: '1根', calories: 105, protein_g: 1.3, carbs_g: 27, fat_g: 0.4, category: '水果' },
+    { id: 'f12', name_zh: '蘋果', name_en: 'Apple', serving_size: '1顆', calories: 95, protein_g: 0.5, carbs_g: 25, fat_g: 0.3, category: '水果' },
+    { id: 'f13', name_zh: '牛肉麵', name_en: 'Beef Noodle Soup', serving_size: '1碗', calories: 680, protein_g: 38, carbs_g: 75, fat_g: 22, category: '麵食' },
+    { id: 'f14', name_zh: '乾麵', name_en: 'Dry Noodles', serving_size: '1碗', calories: 420, protein_g: 12, carbs_g: 68, fat_g: 10, category: '麵食' },
+    { id: 'f15', name_zh: '餛飩湯', name_en: 'Wonton Soup', serving_size: '1碗', calories: 280, protein_g: 14, carbs_g: 32, fat_g: 10, category: '湯品' },
+    { id: 'f16', name_zh: '蚵仔煎', name_en: 'Oyster Omelette', serving_size: '1份', calories: 480, protein_g: 16, carbs_g: 45, fat_g: 26, category: '小吃' },
+    { id: 'f17', name_zh: '臭豆腐', name_en: 'Stinky Tofu', serving_size: '1份', calories: 450, protein_g: 18, carbs_g: 30, fat_g: 28, category: '小吃' },
+    { id: 'f18', name_zh: '小籠包', name_en: 'Xiao Long Bao', serving_size: '1籠 (8顆)', calories: 520, protein_g: 22, carbs_g: 48, fat_g: 26, category: '點心' },
+    { id: 'f19', name_zh: '蛋餅', name_en: 'Egg Crepe', serving_size: '1份', calories: 320, protein_g: 11, carbs_g: 32, fat_g: 16, category: '早餐' },
+    { id: 'f20', name_zh: '三明治', name_en: 'Sandwich', serving_size: '1份', calories: 350, protein_g: 14, carbs_g: 38, fat_g: 15, category: '早餐' },
+    { id: 'f21', name_zh: '飯糰', name_en: 'Rice Ball', serving_size: '1個', calories: 380, protein_g: 10, carbs_g: 65, fat_g: 8, category: '早餐' },
+    { id: 'f22', name_zh: '蛋黃酥', name_en: 'Egg Yolk Pastry', serving_size: '1顆', calories: 280, protein_g: 4, carbs_g: 32, fat_g: 15, category: '點心' },
+    { id: 'f23', name_zh: '鳳梨酥', name_en: 'Pineapple Cake', serving_size: '1顆', calories: 180, protein_g: 2, carbs_g: 26, fat_g: 8, category: '點心' },
+    { id: 'f24', name_zh: '雞絲涼麵', name_en: 'Cold Sesame Noodles', serving_size: '1份', calories: 520, protein_g: 18, carbs_g: 70, fat_g: 18, category: '麵食' },
+    { id: 'f25', name_zh: '滷味', name_en: 'Braised Snacks', serving_size: '1份', calories: 380, protein_g: 22, carbs_g: 18, fat_g: 22, category: '小吃' },
+    { id: 'f26', name_zh: '鹹酥雞', name_en: 'Popcorn Chicken', serving_size: '1份', calories: 580, protein_g: 28, carbs_g: 32, fat_g: 38, category: '小吃' },
+    { id: 'f27', name_zh: '蒸餃', name_en: 'Steamed Dumplings', serving_size: '10顆', calories: 480, protein_g: 20, carbs_g: 50, fat_g: 20, category: '點心' },
+    { id: 'f28', name_zh: '水餃', name_en: 'Boiled Dumplings', serving_size: '10顆', calories: 420, protein_g: 18, carbs_g: 48, fat_g: 15, category: '點心' },
+    { id: 'f29', name_zh: '鍋貼', name_en: 'Pan-fried Dumplings', serving_size: '10顆', calories: 540, protein_g: 20, carbs_g: 50, fat_g: 26, category: '點心' },
+    { id: 'f30', name_zh: '滷蛋', name_en: 'Braised Egg', serving_size: '1顆', calories: 85, protein_g: 6.5, carbs_g: 1, fat_g: 6, category: '蛋白質' },
+    { id: 'f31', name_zh: '水煮蛋', name_en: 'Boiled Egg', serving_size: '1顆', calories: 72, protein_g: 6.3, carbs_g: 0.4, fat_g: 5, category: '蛋白質' },
+    { id: 'f32', name_zh: '優格', name_en: 'Yogurt', serving_size: '1杯 200g', calories: 120, protein_g: 10, carbs_g: 12, fat_g: 3.5, category: '乳製品' },
+    { id: 'f33', name_zh: '鮭魚', name_en: 'Salmon', serving_size: '100g', calories: 220, protein_g: 22, carbs_g: 0, fat_g: 14, category: '蛋白質' },
+    { id: 'f34', name_zh: '牛排', name_en: 'Steak', serving_size: '150g', calories: 420, protein_g: 38, carbs_g: 0, fat_g: 30, category: '蛋白質' },
+    { id: 'f35', name_zh: '花椰菜', name_en: 'Broccoli', serving_size: '1碗 (100g)', calories: 35, protein_g: 2.8, carbs_g: 7, fat_g: 0.4, category: '蔬菜' },
+    { id: 'f36', name_zh: '高麗菜', name_en: 'Cabbage', serving_size: '1碗 (100g)', calories: 25, protein_g: 1.3, carbs_g: 5.8, fat_g: 0.1, category: '蔬菜' },
+    { id: 'f37', name_zh: '糙米飯', name_en: 'Brown Rice', serving_size: '1碗 (160g)', calories: 220, protein_g: 5, carbs_g: 46, fat_g: 1.6, category: '主食' },
+    { id: 'f38', name_zh: '白飯', name_en: 'White Rice', serving_size: '1碗 (160g)', calories: 240, protein_g: 4.4, carbs_g: 53, fat_g: 0.5, category: '主食' },
+    { id: 'f39', name_zh: '土司', name_en: 'White Bread', serving_size: '1片', calories: 80, protein_g: 2.5, carbs_g: 15, fat_g: 1, category: '主食' },
+    { id: 'f40', name_zh: '全麥吐司', name_en: 'Whole Wheat Toast', serving_size: '1片', calories: 75, protein_g: 3.5, carbs_g: 13, fat_g: 1.2, category: '主食' },
+    { id: 'f41', name_zh: '豆腐', name_en: 'Tofu', serving_size: '1塊 (100g)', calories: 76, protein_g: 8, carbs_g: 1.9, fat_g: 4.8, category: '蛋白質' },
+    { id: 'f42', name_zh: '黑咖啡', name_en: 'Black Coffee', serving_size: '1杯 300ml', calories: 5, protein_g: 0.3, carbs_g: 0, fat_g: 0, category: '飲料' },
+    { id: 'f43', name_zh: '拿鐵', name_en: 'Latte', serving_size: '1杯 (中)', calories: 140, protein_g: 8, carbs_g: 14, fat_g: 5, category: '飲料' },
+    { id: 'f44', name_zh: '綠茶', name_en: 'Green Tea', serving_size: '1杯', calories: 2, protein_g: 0, carbs_g: 0, fat_g: 0, category: '飲料' },
+    { id: 'f45', name_zh: '運動飲料', name_en: 'Sports Drink', serving_size: '1瓶 600ml', calories: 150, protein_g: 0, carbs_g: 38, fat_g: 0, category: '飲料' },
+    { id: 'f46', name_zh: '堅果', name_en: 'Mixed Nuts', serving_size: '1把 (30g)', calories: 180, protein_g: 6, carbs_g: 6, fat_g: 15, category: '點心' },
+    { id: 'f47', name_zh: '杏仁', name_en: 'Almonds', serving_size: '1把 (28g)', calories: 160, protein_g: 6, carbs_g: 6, fat_g: 14, category: '點心' },
+    { id: 'f48', name_zh: '酪梨', name_en: 'Avocado', serving_size: '半顆', calories: 160, protein_g: 2, carbs_g: 9, fat_g: 15, category: '水果' },
+    { id: 'f49', name_zh: '藍莓', name_en: 'Blueberries', serving_size: '1碗 (100g)', calories: 57, protein_g: 0.7, carbs_g: 14, fat_g: 0.3, category: '水果' },
+    { id: 'f50', name_zh: '雞蛋三明治', name_en: 'Egg Sandwich', serving_size: '1份', calories: 380, protein_g: 16, carbs_g: 34, fat_g: 18, category: '早餐' },
+];
+export function searchFoods(query) {
+    const q = query.trim().toLowerCase();
+    if (!q)
+        return [];
+    return TAIWANESE_FOODS.filter((f) => f.name_zh.toLowerCase().includes(q) ||
+        (f.name_en ?? '').toLowerCase().includes(q) ||
+        (f.category ?? '').toLowerCase().includes(q)).slice(0, 20);
+}
