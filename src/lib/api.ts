@@ -1,0 +1,18 @@
+import axios from 'axios';
+
+const baseURL = (import.meta.env.VITE_API_URL as string | undefined) || 'http://localhost:8000';
+
+export const apiClient = axios.create({
+  baseURL,
+  timeout: 20000,
+});
+
+apiClient.interceptors.request.use((config) => {
+  const token = localStorage.getItem('auth_token');
+  if (token) config.headers.Authorization = `Bearer ${token}`;
+  return config;
+});
+
+export function withBackendOrMock<T>(fn: () => Promise<T>, mock: () => T): Promise<T> {
+  return fn().catch(async () => mock());
+}
